@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>helpLogin</servlet-name>
+  	<display-name>helpLogin</display-name>
+  	<description></description>
+  	<servlet-class>myservlet.helpLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>showfilms</servlet-name>
+  	<display-name>showfilms</display-name>
+  	<description></description>
+  	<servlet-class>dao.showfilms</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>handledate</servlet-name>
+  	<display-name>handledate</display-name>
+  	<description></description>
+  	<servlet-class>myservlet.handledate</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddFilm</servlet-name>
+  	<display-name>AddFilm</display-name>
+  	<description></description>
+  	<servlet-class>myservlet.AddFilm</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteFilm</servlet-name>
+  	<display-name>DeleteFilm</display-name>
+  	<description></description>
+  	<servlet-class>myservlet.DeleteFilm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>helpLogin</servlet-name>
+  	<url-pattern>/helpLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>showfilms</servlet-name>
+  	<url-pattern>/showfilms</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>handledate</servlet-name>
+  	<url-pattern>/handledate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddFilm</servlet-name>
+  	<url-pattern>/AddFilm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteFilm</servlet-name>
+  	<url-pattern>/DeleteFilm</url-pattern>
+  </servlet-mapping>
+</web-app>
